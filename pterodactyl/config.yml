@@ -1,0 +1,18 @@
+debug: false
+uuid: 93409ba5-5e17-4e8e-9113-a14cc2bbed06
+token_id: 9zL7u2ajE6jO1850
+token: yUhJjS9elIJVSGScBUGMJO9QBJDKIEEYkUYeQ3vDKu2sOpkCrWsNfZhrJRzjiyz4
+api:
+  host: 0.0.0.0
+  port: 8080
+  ssl:
+    enabled: true
+    cert: /etc/letsencrypt/live/node2-lpanel.zanixon.xyz/fullchain.pem
+    key: /etc/letsencrypt/live/node2-lpanel.zanixon.xyz/privkey.pem
+  upload_limit: 100
+system:
+  data: /var/lib/pterodactyl/volumes
+  sftp:
+    bind_port: 2022
+allowed_mounts: []
+remote: 'https://lpanel.zanixon.xyz'
